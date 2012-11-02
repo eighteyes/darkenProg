@@ -390,3 +390,6 @@
 #-webkit-web-inspector .pane > .title {background-image: -webkit-linear-gradient(279deg, #666, #333) !important; color:#CCC !important; text-shadow:0px -1px #222 !important; }
 #-webkit-web-inspector .styles-section.matched-styles .properties li.parent .expand-element { content: url(chrome-devtools:/devtools/Images/treeRightTriangleWhite.png) !important;}
 #-webkit-web-inspector .network-error-row, #-webkit-web-inspector .network-error-row #-webkit-web-inspector .network-cell-subtitle { color: #C33 !important; }
+#-webkit-web-inspector .sidebar { background-color: #334 !important; }
+#-webkit-web-inspector .base-storage-tree-element-subtitle { color: #aaa !important; }
+#-webkit-web-inspector .network-log-grid.data-grid tr.filler { background-image: -webkit-linear-gradient(top, #333,#444 );}
