@@ -10,7 +10,7 @@ Installation: Replace the following with the Custom.css here.
 
 Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
 
-PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css ~Thanks to @VSC
+PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css
 
 Ubuntu (Chromium): ~/.config/chromium/Default/User StyleSheets/Custom.css
 
