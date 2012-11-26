@@ -2,7 +2,7 @@
 /* darkenProg - removing as much of the white backgrounds as possible 
 /* Sean Canton - http://github.com/eighteyes/darkenProg/
 /*
-/* Heavily informed by the work of the below
+/* Heavily informed by the work of the below/*
 /* IR_Black Skin by Ben Truyman - 2011
 /*
 /* Based on Todd Werth's IR_Black:
@@ -22,7 +22,7 @@
   /**********************************************/
 
   #console-messages {
-    font-family: 'Consolas', Menlo, monospace !important;
+    font-family: 'Source Code Pro', 'Consolas', Menlo, monospace !important;
     background: #242424;
   }
 
@@ -395,5 +395,5 @@
 #-webkit-web-inspector .network-log-grid.data-grid tr.filler { background-image: -webkit-linear-gradient(top, #333,#444 );}
 #-webkit-web-inspector .sidebar-tree-section { color:#CCC !important; text-shadow:0px -1px #222 !important; }
 #-webkit-web-inspector .network.panel .data-grid th { background-image: -webkit-linear-gradient(top, #666, #333) !important; color:#CCC !important; text-shadow:0px -1px #222 !important;  }
-
-
+#-webkit-web-inspector .styles-section .selector-matches { color:#ccc !important;}
+#-webkit-web-inspector #storage-views .script-view, #-webkit-web-inspector #elements-content, #-webkit-web-inspector #network-views .text-editor-contents, #-webkit-web-inspector #script-resource-views .script-view { color: #666 !important;}
