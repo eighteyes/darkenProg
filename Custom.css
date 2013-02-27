@@ -1,5 +1,5 @@
 /**********************************************/
-/* darkenProg - removing as much of the white backgrounds as possible 
+/* darkenProg - removing as much of the white backgrounds as possible
 /* Sean Canton - http://github.com/eighteyes/darkenProg/
 /*
 /* Heavily informed by the work of the below/*
@@ -373,9 +373,7 @@
 #-webkit-web-inspector table {color: #778 }
 #-webkit-web-inspector .outline-disclosure, .base-navigator-tree-element-title {color:#ccc !important}
 #-webkit-web-inspector .content {background-image:-webkit-linear-gradient(bottom, #111 10%, #333 100%);}
-#-webkit-web-inspector .toolbar-label {display: none !important;}
-#-webkit-web-inspector #toolbar {height:35px !important;}
-#-webkit-web-inspector #main {top: 35px !important;}
+#-webkit-web-inspector #main {top: 24px !important;}
 #-webkit-web-inspector .console-formatted-number { color: lightblue !important;}
 #-webkit-web-inspector .revision-history-line-removed { background-color: rgba(255, 221, 221, 0.4); }
 #-webkit-web-inspector .outline-disclosure > ol { color:#ccc !important;}
@@ -397,9 +395,9 @@
 #-webkit-web-inspector .network.panel .data-grid th { background-image: -webkit-linear-gradient(top, #666, #333) !important; color:#CCC !important; text-shadow:0px -1px #222 !important;  }
 #-webkit-web-inspector .styles-section .selector-matches { color:#ccc !important;}
 #-webkit-web-inspector #storage-views .script-view, #-webkit-web-inspector #elements-content, #-webkit-web-inspector #network-views .text-editor-contents, #-webkit-web-inspector #script-resource-views .script-view { color: #666 !important;}
-#-webkit-web-inspector .console-message, #-webkit-web-inspector .console-user-command { border-top: 1px solid rgb(74, 117, 70) !important; } 
+#-webkit-web-inspector .console-message, #-webkit-web-inspector .console-user-command { border-top: 1px solid rgb(74, 117, 70) !important; }
 #-webkit-web-inspector #console-prompt { border-top: 1px dotted #666 !important; background: rgb(15, 26, 49) !important;}
-#-webkit-web-inspector #toolbar { background-color: #666 !important;}
+#-webkit-web-inspector #toolbar { background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99C), to(#CCF)) !important;}
 #-webkit-web-inspector .tabbed-pane-header {background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666), to(#246) ) !important; }
 #-webkit-web-inspector .tabbed-pane-header-tab { color: #ccc !important; text-shadow: rgba(17,17,17, 0.7) 0 1px 0 !important; }
 
@@ -431,3 +429,10 @@
 #-webkit-web-inspector .cm-link { color: blue !important; }
 
 
+#-webkit-web-inspector .CodeMirror-matchingbracket {
+  text-decoration: underline !important;
+  color: white !important;
+}
+#-webkit-web-inspector .cm-execution-line { background-color: rgb(80,90,120) !important;}
+
+#-webkit-web-inspector .monospace {color: white !important;}
