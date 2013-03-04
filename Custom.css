@@ -371,7 +371,7 @@
 #-webkit-web-inspector .name {color: hsl(180, 50%, 60%) !important}
 #-webkit-web-inspector .value {color: hsl(160, 70%, 50%) !important}
 #-webkit-web-inspector table {color: #778 }
-#-webkit-web-inspector .outline-disclosure, .base-navigator-tree-element-title {color:#ccc !important}
+#-webkit-web-inspector .outline-disclosure, .base-navigator-tree-element-title {color:#ccc !important; background-color: #002;}
 #-webkit-web-inspector .content {background-image:-webkit-linear-gradient(bottom, #111 10%, #333 100%);}
 #-webkit-web-inspector #main {top: 24px !important;}
 #-webkit-web-inspector .console-formatted-number { color: lightblue !important;}
@@ -432,6 +432,18 @@
 #-webkit-web-inspector .CodeMirror-matchingbracket {
   text-decoration: underline !important;
   color: white !important;
+}
+.outline-disclosure li.parent.expanded::before {
+content: url(Images/treeDownTriangleWhite.png) !important;
+}
+.outline-disclosure li.parent::before {
+content: url(Images/treeRightTriangleBlack.png) !important;
+}
+.revision-history-line-removed {
+  background-color: #966;
+}
+.revision-history-link {
+  color: #99C !important;
 }
 #-webkit-web-inspector .cm-execution-line { background-color: rgb(80,90,120) !important;}
 
