@@ -428,6 +428,15 @@
 #-webkit-web-inspector .cm-hr { color: #AEAEAE ! important; }
 #-webkit-web-inspector .cm-link { color: blue !important; }
 
+#-webkit-web-inspector .placard:nth-of-type(2n) { background-color: #101 !important; }
+#-webkit-web-inspector .placard .title { color: rgba(200,200,200,0.8) !important; }
+#-webkit-web-inspector .placard .subtitle { color:rgba(200,200,255,0.5) !important; }
+
+#-webkit-web-inspector .status-bar {background-image: -webkit-linear-gradient(#b2b2e5, #669 75%, #336) !important};
+
+#-webkit-web-inspector .placard.selected { background-image: -webkit-linear-gradient(#133,#577) !important;}
+
+#-webkit-web-inspector .pane-title { background-image: -webkit-linear-gradient(#111,#333) !important; color: #ccf !important; }
 
 #-webkit-web-inspector .CodeMirror-matchingbracket {
   text-decoration: underline !important;
