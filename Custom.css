@@ -436,7 +436,7 @@
 
 #-webkit-web-inspector .placard.selected { background-image: -webkit-linear-gradient(#133,#577) !important;}
 
-#-webkit-web-inspector .pane-title { background-image: -webkit-linear-gradient(#111,#333) !important; color: #ccf !important; }
+#-webkit-web-inspector .pane-title { background-image: -webkit-linear-gradient(#111,#333) !important; text-shadow:none !important; color: #ccf !important; }
 
 #-webkit-web-inspector .CodeMirror-matchingbracket {
   text-decoration: underline !important;
