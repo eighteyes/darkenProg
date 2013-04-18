@@ -457,3 +457,6 @@ content: url(Images/treeRightTriangleBlack.png) !important;
 #-webkit-web-inspector .cm-execution-line { background-color: rgb(80,90,120) !important;}
 
 #-webkit-web-inspector .monospace {color: white !important;}
+
+#-webkit-web-inspector .breakpoint-list .checkbox-elem { font-size: 20px !important; height: 12px; width: 14px !important; }
+#-webkit-web-inspector .breakpoint-list li { { color: #669 !important; }
