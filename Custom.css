@@ -363,7 +363,7 @@
 #-webkit-web-inspector .webkit-html-attribute-name {color: hsl(70, 50%, 50%) !important; }
 #-webkit-web-inspector .webkit-html-attribute-value {color: hsl(170, 50%, 50%) !important; }
 #-webkit-web-inspector .webkit-html-tag-name {color: lightgrey !important; }
-#-webkit-web-inspector .source-code {color: #CEC !important; }
+#-webkit-web-inspector .source-code {color: #CEC !important; background: #111 !important; }
 #-webkit-web-inspector .webkit-added-line.webkit-line-content,   .webkit-execution-line.webkit-line-content  {background-color:hsl(210, 52%, 20%) !important;}
 #-webkit-web-inspector .tabbed-pane-content {background-color: #111;color:#EEE}
 #-webkit-web-inspector .header-name {color: #AAA !important}
@@ -460,3 +460,5 @@ content: url(Images/treeRightTriangleBlack.png) !important;
 
 #-webkit-web-inspector .breakpoint-list .checkbox-elem { font-size: 20px !important; height: 12px; width: 14px !important; }
 #-webkit-web-inspector .breakpoint-list li { { color: #669 !important; }
+
+#-webkit-web-inspector .CodeMirror { background: black !important;}
