@@ -353,7 +353,7 @@
 #-webkit-web-inspector .metrics .content span { color: #111 !important;}
 #-webkit-web-inspector .properties-tree li.parent::before { background-image:url(Images/treeDownTriangleBlack.png)}
 #-webkit-web-inspector .network-log-grid.data-grid.small table.data {-webkit-background-size 1px 40px !important;}
-#-webkit-web-inspector .text-editor-contents { background-color: #111; color: #eef; font-family: Consolas, sans-serif !important; font-size:14px !important;}
+#-webkit-web-inspector .text-editor-contents { background-color: #111; color: #eef; font-family: Consolas, sans-serif !important; font-size:11px !important;}
 #-webkit-web-inspector .webkit-javascript-ident{color:lightblue !important; }
 #-webkit-web-inspector .webkit-javascript-string, .webkit-css-property {color:hsl(200, 50%, 60%) !important; }
 #-webkit-web-inspector .webkit-javascript-keyword,   .webkit-css-selector {color: hsl(20, 86%, 80%) !important;}
@@ -363,7 +363,7 @@
 #-webkit-web-inspector .webkit-html-attribute-name {color: hsl(70, 50%, 50%) !important; }
 #-webkit-web-inspector .webkit-html-attribute-value {color: hsl(170, 50%, 50%) !important; }
 #-webkit-web-inspector .webkit-html-tag-name {color: lightgrey !important; }
-#-webkit-web-inspector .source-code {color: #CEC !important; background: #111 !important; }
+#-webkit-web-inspector .source-code {color: #CEC !important; }
 #-webkit-web-inspector .webkit-added-line.webkit-line-content,   .webkit-execution-line.webkit-line-content  {background-color:hsl(210, 52%, 20%) !important;}
 #-webkit-web-inspector .tabbed-pane-content {background-color: #111;color:#EEE}
 #-webkit-web-inspector .header-name {color: #AAA !important}
@@ -371,7 +371,7 @@
 #-webkit-web-inspector .name {color: hsl(180, 50%, 60%) !important}
 #-webkit-web-inspector .value {color: hsl(160, 70%, 50%) !important}
 #-webkit-web-inspector table {color: #778 }
-#-webkit-web-inspector .outline-disclosure, .base-navigator-tree-element-title {color:#ccc !important; background-color: #002;}
+#-webkit-web-inspector .outline-disclosure, .base-navigator-tree-element-title {color:#ccc !important}
 #-webkit-web-inspector .content {background-image:-webkit-linear-gradient(bottom, #111 10%, #333 100%);}
 #-webkit-web-inspector #main {top: 24px !important;}
 #-webkit-web-inspector .console-formatted-number { color: lightblue !important;}
@@ -428,37 +428,13 @@
 #-webkit-web-inspector .cm-hr { color: #AEAEAE ! important; }
 #-webkit-web-inspector .cm-link { color: blue !important; }
 
-#-webkit-web-inspector .placard:nth-of-type(2n) { background-color: #101 !important; }
-#-webkit-web-inspector .placard .title { color: rgba(200,200,200,0.8) !important; }
-#-webkit-web-inspector .placard .subtitle { color:rgba(200,200,255,0.5) !important; }
-
-#-webkit-web-inspector .status-bar {background-image: -webkit-linear-gradient(#b2b2e5, #669 75%, #336) !important};
-
-#-webkit-web-inspector .placard.selected { background-image: -webkit-linear-gradient(#133,#577) !important;}
-
-#-webkit-web-inspector .pane-title { background-image: -webkit-linear-gradient(#111,#333) !important; text-shadow:none !important; color: #ccf !important; }
 
 #-webkit-web-inspector .CodeMirror-matchingbracket {
   text-decoration: underline !important;
   color: white !important;
 }
-.outline-disclosure li.parent.expanded::before {
-content: url(Images/treeDownTriangleWhite.png) !important;
-}
-.outline-disclosure li.parent::before {
-content: url(Images/treeRightTriangleBlack.png) !important;
-}
-.revision-history-line-removed {
-  background-color: #966;
-}
-.revision-history-link {
-  color: #99C !important;
-}
 #-webkit-web-inspector .cm-execution-line { background-color: rgb(80,90,120) !important;}
 
 #-webkit-web-inspector .monospace {color: white !important;}
 
-#-webkit-web-inspector .breakpoint-list .checkbox-elem { font-size: 20px !important; height: 12px; width: 14px !important; }
-#-webkit-web-inspector .breakpoint-list li { { color: #669 !important; }
-
-#-webkit-web-inspector .CodeMirror { background: black !important;}
+#-webkit-web-inspector .cm-s-default .cm-property { color: #669 !important; }
